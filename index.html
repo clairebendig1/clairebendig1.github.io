@@ -75,77 +75,199 @@
       <div class="section-inner">
         <h2>Portfolio samples</h2>
         <p class="section-intro">Public documentation artifacts built from the systems and standards I developed across Meta, Google, and healthcare environments.</p>
-        <div class="portfolio-grid">
+        <div class="portfolio-group">
+          <h3 class="portfolio-group-label">Meta Reality Labs &mdash; 2022&ndash;2026</h3>
+          <div class="portfolio-grid">
 
-          <div class="card">
-            <h3>Meta Reality Labs — Documentation Style Guide</h3>
-            <dl class="star">
-              <div class="star-row">
-                <dt>Situation</dt>
-                <dd>When I joined Meta's Reality Labs in 2022, documentation across 25+ engineering teams was inconsistent — different terminology, different structure, different tone. There was no single reference for how to write at Reality Labs.</dd>
-              </div>
-              <div class="star-row">
-                <dt>Task</dt>
-                <dd>Build a style guide that engineers and technical contributors would actually use — and that would hold up as the organization evolved.</dd>
-              </div>
-              <div class="star-row">
-                <dt>Action</dt>
-                <dd>Gathered style materials from across the org, built the guide around developer and engineering audience needs, and drove adoption through a promotional video and an org-wide rollout.</dd>
-              </div>
-              <div class="star-row">
-                <dt>Result</dt>
-                <dd>Three years later, that guide is integrated into Meta's automated Vale tooling and validated against every documentation diff published on the developer site. It became the adopted standard for all external documentation engineering teams at Meta.</dd>
-              </div>
-            </dl>
-            <a href="https://github.com/clairebendig1/documentation-style-guide" target="_blank" rel="noopener" class="card-link">View artifact on GitHub &rarr;</a>
+            <div class="card">
+              <h3>Quest 3 Launch Documentation</h3>
+              <dl class="star">
+                <div class="star-row">
+                  <dt>Situation</dt>
+                  <dd>Insufficient feature documentation was Meta's top-ranked developer pain point. Quest 3 was approaching hardware launch and no First Access documentation platform existed. I transitioned from AR to VR with no prior VR experience and needed to onboard within weeks.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Task</dt>
+                  <dd>Build the First Access documentation platform from scratch and publish 10+ features across Quest 3, Quest 2, and Quest Pro before hardware launch.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Action</dt>
+                  <dd>Designed the documentation site architecture and editorial collaboration process with SDK engineering teams. Onboarded to new tooling and processes within one month. Published and staged 10+ features with full documentation ahead of launch.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Result</dt>
+                  <dd>Closed Meta's top-ranked developer pain point before launch. Partner developers could test features and provide pre-launch feedback using the published docs. Established First Access as a repeatable documentation process for future hardware launches.</dd>
+                </div>
+              </dl>
+            </div>
+
+            <div class="card">
+              <h3>Human Interface Guidelines (HIG)</h3>
+              <dl class="star">
+                <div class="star-row">
+                  <dt>Situation</dt>
+                  <dd>The Horizon developer center had no Human Interface Guidelines section. Design teams had knowledge to share but no system to publish it and no way to contribute content without routing everything through the documentation team.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Task</dt>
+                  <dd>Build the HIG section from the ground up — information architecture, content, publishing guidelines, and a contribution model that let design teams author and publish independently.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Action</dt>
+                  <dd>Built and rebuilt the section's IA and navigation as the design evolved. Wrote publishing guidelines enabling authors to build and launch their own content. Integrated design templates into the publishing workflow and trained a new set of self-directed contributors.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Result</dt>
+                  <dd>Launched 63 new HIG concepts and a new self-directed contribution model for the developer center. GitHub documentation retention improved 12%.</dd>
+                </div>
+              </dl>
+              <a href="https://developers.meta.com/horizon/essentials/" target="_blank" rel="noopener" class="card-link">View live on Meta Developers &rarr;</a>
+            </div>
+
+            <div class="card">
+              <h3>Content Type Templates</h3>
+              <dl class="star">
+                <div class="star-row">
+                  <dt>Situation</dt>
+                  <dd>Reality Labs developer documentation had no consistent structure. Different teams formatted content differently, making it impossible to audit quality at scale or give contributors a clear standard to write toward.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Task</dt>
+                  <dd>Design a template system that engineering teams would actually adopt as part of how they worked — not just reference and ignore.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Action</dt>
+                  <dd>Designed content type templates for all major documentation types. Socialized the system across Reality Labs engineering teams through targeted outreach and quality programs. Integrated templates into automated audit and review workflows.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Result</dt>
+                  <dd>Templates adopted across Reality Labs engineering teams and became the foundation for company-wide external documentation standards at Meta.</dd>
+                </div>
+              </dl>
+              <a href="https://github.com/clairebendig1/doc-quality-toolkit" target="_blank" rel="noopener" class="card-link">View template artifacts on GitHub &rarr;</a>
+            </div>
+
+            <div class="card">
+              <h3>Developer Center Marketing Overhaul (Connect)</h3>
+              <dl class="star">
+                <div class="star-row">
+                  <dt>Situation</dt>
+                  <dd>Meta's "Why Meta Quest" developer center marketing content needed a refresh. I was brought in as the technical documentation representative with a defined, limited scope.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Task</dt>
+                  <dd>Represent documentation in the marketing refresh and ensure technical accuracy of updated content.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Action</dt>
+                  <dd>While executing the defined scope, I identified adjacent high-value opportunities and independently expanded the project to include showcases, the HIG section, and device comparisons — work not originally scoped.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Result</dt>
+                  <dd>Showcase views increased 35% and GitHub repository retention improved 12%. Independently doubled the project's documented impact beyond its original brief.</dd>
+                </div>
+              </dl>
+            </div>
+
+            <div class="card">
+              <h3>Site-Wide Quality System</h3>
+              <dl class="star">
+                <div class="star-row">
+                  <dt>Situation</dt>
+                  <dd>When we measured the Reality Labs developer site against our quality standards, compliance was at 0%. Not low — zero. The problem was not that people didn't care about quality. There was no system making quality the path of least resistance.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Task</dt>
+                  <dd>Drive site-wide compliance to a meaningful level at scale, without relying on manual audits that don't scale.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Action</dt>
+                  <dd>Built three connected systems: a quality dashboard that surfaced easy-fix opportunities proactively, Bots4Docs AI commands that automated quality checks at the point of authoring, and led the largest documentation sprint in Reality Labs history spanning RL and Meta's broader family of apps.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Result</dt>
+                  <dd>0% to 91% compliance site-wide. 21% reduction in grammatical issues across the entire developer center.</dd>
+                </div>
+              </dl>
+            </div>
+
+            <div class="card">
+              <h3>AI-Assisted Authoring Tools (Bots4Docs)</h3>
+              <dl class="star">
+                <div class="star-row">
+                  <dt>Situation</dt>
+                  <dd>Quality issues in Meta's developer documentation were caught late — in editorial review or post-publication — creating friction for contributors and inconsistent output across a distributed team of 50+ writers.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Task</dt>
+                  <dd>Build AI-assisted tools that embed quality checking into the authoring workflow rather than adding it as a separate gate after writing is done.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Action</dt>
+                  <dd>Wrote the style guide, clarity, and template commands for Bots4Docs, Meta's internal AI writing assistant. Built the workshop curriculum, wiki documentation, and automated docathons integrating Vale and Bots4Docs to scale quality work across the contributor community.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Result</dt>
+                  <dd>Became the top-used AI commands across Meta. Quality checking moved from a post-review step to an in-workflow action — enabling the compliance gains that took the developer site from 0% to 91%.</dd>
+                </div>
+              </dl>
+              <a href="https://github.com/clairebendig1/doc-quality-toolkit" target="_blank" rel="noopener" class="card-link">View AI prompt artifacts on GitHub &rarr;</a>
+            </div>
+
+            <div class="card">
+              <h3>Horizon OS IA Principles &amp; Playbook</h3>
+              <dl class="star">
+                <div class="star-row">
+                  <dt>Situation</dt>
+                  <dd>As the Horizon developer center grew, teams were making information architecture decisions inconsistently and routing every structural question through the documentation team — creating a bottleneck that slowed content production across the org.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Task</dt>
+                  <dd>Build a framework that enabled teams to make documentation structure decisions independently, without doc team involvement on every call.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Action</dt>
+                  <dd>Authored the Horizon OS Information Architecture Principles and Playbook — a formal framework covering how the developer site should be structured and why, with enough specificity that teams could apply the principles to new decisions on their own.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Result</dt>
+                  <dd>Teams gained the language and framework to make IA decisions independently. Reduced the documentation team's involvement as a structural gatekeeper and established a consistent IA approach across the Horizon developer center.</dd>
+                </div>
+              </dl>
+              <a href="https://github.com/clairebendig1/documentation-style-guide" target="_blank" rel="noopener" class="card-link">View style guide artifact on GitHub &rarr;</a>
+            </div>
+
           </div>
+        </div>
 
-          <div class="card">
-            <h3>Meta Reality Labs — Accessibility Writing Guidelines</h3>
-            <dl class="star">
-              <div class="star-row">
-                <dt>Situation</dt>
-                <dd>Reality Labs had no shared accessibility standards for developer documentation. Accessibility was treated as an afterthought — added after content was written rather than designed in from the start.</dd>
-              </div>
-              <div class="star-row">
-                <dt>Task</dt>
-                <dd>Establish accessibility as a core quality dimension for developer documentation, on par with accuracy and completeness.</dd>
-              </div>
-              <div class="star-row">
-                <dt>Action</dt>
-                <dd>Became the accessibility champion for Reality Labs. Built the Bots4Docs AX writing guidelines command — an AI-assisted tool that checks content for accessibility issues at the point of authoring. Led accessibility reviews and brought standards back to the team.</dd>
-              </div>
-              <div class="star-row">
-                <dt>Result</dt>
-                <dd>The AX command became part of the Bots4Docs toolkit — the top-used AI tools across Meta. Accessibility moved from a checklist item to a built-in quality gate in the documentation workflow.</dd>
-              </div>
-            </dl>
-            <a href="https://github.com/clairebendig1/accessibility-writing-guidelines" target="_blank" rel="noopener" class="card-link">View artifact on GitHub &rarr;</a>
+        <div class="portfolio-group">
+          <h3 class="portfolio-group-label">Healthcare &mdash; FDA-Regulated Documentation</h3>
+          <div class="portfolio-grid">
+
+            <div class="card">
+              <h3>Medical Device User Guide &mdash; ASP STERRAD</h3>
+              <dl class="star">
+                <div class="star-row">
+                  <dt>Situation</dt>
+                  <dd>The STERRAD surgical sterilization system is a Class II FDA-regulated medical device used by clinical operators in hospital environments under time pressure. Documentation errors have direct patient safety consequences. All content requires formal FDA Regulatory Affairs sign-off before publication.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Task</dt>
+                  <dd>Author the complete user guide and all GUI interface copy, then coordinate every piece of content through formal regulatory review — without sacrificing plain-language clarity for clinical end users.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Action</dt>
+                  <dd>Collaborated with hardware and software engineers to develop deep product knowledge before writing any user-facing content. Authored the complete user guide and all GUI copy structured for operators working under clinical time pressure. Coordinated all content through FDA Regulatory Affairs review, managing the tension between compliance requirements and plain-language clarity.</dd>
+                </div>
+                <div class="star-row">
+                  <dt>Result</dt>
+                  <dd>Delivered compliant, operator-level documentation for a safety-critical medical device. Managed full labeling migration from Johnson &amp; Johnson Medical Devices to Fortive across the product line.</dd>
+                </div>
+              </dl>
+              <a href="https://drive.google.com/file/d/1TxHAOk2wZSDAvhzZg5unEf4MPreCZq9N/view" target="_blank" rel="noopener" class="card-link">View documentation sample &rarr;</a>
+            </div>
+
           </div>
-
-          <div class="card">
-            <h3>Meta Horizon Developer Site — Essentials</h3>
-            <dl class="star">
-              <div class="star-row">
-                <dt>Situation</dt>
-                <dd>The Horizon OS developer site needed a foundational content section that new developers could rely on to orient themselves to the platform. Information architecture was inconsistent, and teams lacked a shared framework for how to structure and contribute content.</dd>
-              </div>
-              <div class="star-row">
-                <dt>Task</dt>
-                <dd>Build the information architecture, content standards, and contribution model that would make the Essentials section a reliable entry point for Horizon OS developers.</dd>
-              </div>
-              <div class="star-row">
-                <dt>Action</dt>
-                <dd>Authored the Horizon OS Information Architecture Principles and Playbook — a formal IA framework enabling teams to make structure decisions independently. Built publishing guidelines, integrated design templates, and trained a new set of self-directed contributors.</dd>
-              </div>
-              <div class="star-row">
-                <dt>Result</dt>
-                <dd>Launched not just new content but a new contribution model for the developer center. Showcase views increased 35% and GitHub documentation retention improved 12% following the initiative.</dd>
-              </div>
-            </dl>
-            <a href="https://developers.meta.com/horizon/essentials/" target="_blank" rel="noopener" class="card-link">View live on Meta Developers &rarr;</a>
-          </div>
-
         </div>
       </div>
     </section>
