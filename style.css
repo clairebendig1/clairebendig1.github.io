@@ -243,9 +243,28 @@ h2 {
   line-height: 1.6;
 }
 
+.portfolio-group {
+  margin-bottom: 3rem;
+}
+
+.portfolio-group:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-group-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   gap: 1.25rem;
 }
 
